@@ -1,0 +1,155 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.navbar{
+	width: 100%;
+	height: 5%;
+	background-color: #8CC7A1;
+	color:#fff;
+	padding-bottom:5px;
+	padding-top: 5px;
+}
+.header{
+	font-family: 'Dancing Script', cursive;
+	font-size: 60pt;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 10px;
+	color: #F694C1;
+}
+.titulo{
+	display: flex;
+	justify-content: center;
+}
+.row-fotos{
+	display: flex;
+	justify-content: center;
+}
+.item-fotos{
+	padding: 10px;
+}
+.item-fotos img{
+	border-radius: 50%;
+}
+.conteudo-convite p{
+	display: flex;
+	justify-content: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 12pt;
+	color:#8CC7A1;
+}
+.passos{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	background-color:#8CC7A1 ;
+}
+.item-passos{
+	display: flex;
+	color: #fff;
+	font-family: 'Dancing Script', cursive;
+	font-size: 12pt;
+	padding: 10px;
+}
+.texto-passos{
+	padding: 5px;
+}
+.participar{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+.btn-participar{
+	background-color: #F694C1;
+	color: #fff;
+	font-family: 'Dancing Script', cursive;
+	padding: 5px;
+	border: 1px solid #F694C1;
+	border-radius: 20px;
+	width: 180px;
+	font-size: 18px;
+}
+.principais-fotos{
+	display: flex;
+}
+.principais-fotos img{
+	width: 220px;
+	height: 200px;
+}
+.load img{
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+.load{
+	font-family: 'Dancing Script', cursive;
+	font-size: 18pt;
+	color:#F694C1;
+}
+.load p{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.modal-presentes{
+	font-family: 'Dancing Script', cursive;
+	font-size: 14pt;
+	color:#757780;
+
+}
+.modal{
+	display: flex;
+	flex-direction: column;
+	font-family: 'Dancing Script', cursive;
+	font-size: 14pt;
+	color:#757780;
+}
+.campos-modal{
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+}
+.conteudo-sorteado{
+	display: flex;
+	flex-direction: column;
+}
+.img-sorteado{
+	display: flex;
+	margin-top: 20px;
+	/*margin: auto;*/
+}
+
+.btn-modal-sorteado{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+.btn-modal{
+	margin-left: 30px;
+}
+.conteudo-sorteado , .btn-modal-sorteado{
+	display: none;
+}
+.btn-confirmar{
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+.text-destaque{
+	font-size: 18pt;
+	font-weight: bold;
+}
+.input-modal{
+	border: 1px solid #757780;
+	border-radius: 3px;
+	height: 25px;
+	opacity: 0.5;
+}
+.bule-modal{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
